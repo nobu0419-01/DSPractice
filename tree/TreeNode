@@ -1,0 +1,17 @@
+// C++ Code
+using namespace std;
+int main (){
+	class tree ;
+class TreeNode{
+	TreeNode * leftchild ;
+	TreeNode * rightchild;
+	TreeNode * whatever;
+	TreeNode * works;
+	int data1;
+	double data2;
+	friend class Tree;
+};
+class Tree{
+	TreeNode * root;
+};
+}
